@@ -1,0 +1,24 @@
+EV FİYAT TAHMİN MODELİ - SONUÇ ÖZETİ
+=============================================
+Baseline LightGBM 5-Fold CV RMSE (log'suz)      : 27,662.95
+Log dönüşümlü model - validasyon RMSE (orijinal): 24,216.62
+En iyi hiperparametreler                        : {'num_leaves': 31, 'n_estimators': 900, 'max_depth': 5, 'learning_rate': 0.01, 'colsample_bytree': 0.6}
+Optimizasyon sonrası 5-Fold CV RMSE (log ölçeği) : 0.12434
+
+En önemli 15 değişken:
+         Feature  Importance
+     NEW_TotalSF         882
+         LotArea         828
+NEW_OverallGrade         568
+       GrLivArea         550
+      GarageArea         518
+      BsmtFinSF1         502
+NEW_TotalPorchSF         458
+     GarageYrBlt         418
+        1stFlrSF         405
+    NEW_HouseAge         380
+       BsmtUnfSF         367
+     OverallQual         363
+   NEW_TotalBath         354
+       YearBuilt         353
+     TotalBsmtSF         321
